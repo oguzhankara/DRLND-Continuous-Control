@@ -53,11 +53,13 @@ The DDPG is implemented in Python 3 using PyTorch.
 ## Repository Structure
 The code is structured as follows:
 * **Continuous_Control.ipynb**: This is where the _DDPG agent_ is trained.
-* **ddpg_agent.py**: This module implements a class to represent a __DDPG agent_.
+* **Continuous_Control.html**: html view for _Continuous_Control.ipynb_
+* **ddpg_agent.py**: This module implements a class to represent a _DDPG agent_.
 * **model.py**: This module contains the implementation of the _Actor and Critic_ neural networks.
 * **checkpoint_actor.pth**: This is the binary containing the trained neural network weights for Actor.
 * **checkpoint_critic.pth**: This is the binary containing the trained neural network weights for Critic.
 * **Report.md**: Project report and result analysis.
+* **README.md**: Readme file.
 
 ##### &nbsp;
 
